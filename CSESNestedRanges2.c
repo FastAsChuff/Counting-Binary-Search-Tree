@@ -85,7 +85,7 @@ void naivesolve(CSESRange_t *Ranges, uint32_t Rangessize) {
 
 void printsolution(CSESRange_t *Ranges, uint32_t Rangessize) {
   for (uint32_t i=0; i<Rangessize; i++) {
-    printf("(%u, %u) ", Ranges[i].x, Ranges[i].y);
+    printf("[%u, %u] ", Ranges[i].x, Ranges[i].y);
   }
   printf("\n");
   for (uint32_t i=0; i<Rangessize; i++) {
